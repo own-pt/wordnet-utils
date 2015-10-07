@@ -1,0 +1,7 @@
+(defun get-letter-type (ss-type)
+  (cond ((equal "1" ss-type) "n")
+        ((equal "2" ss-type) "v")
+        ((equal "3" ss-type) "a")
+        ((equal "4" ss-type) "r")
+        ((equal "5" ss-type) "a")
+        (t nil)))
